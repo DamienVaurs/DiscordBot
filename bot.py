@@ -17,4 +17,6 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 
-client.run(os.environ['TOKEN'])
+a = 2
+my_secret = os.environ['TOKEN']
+client.run(my_secret)
